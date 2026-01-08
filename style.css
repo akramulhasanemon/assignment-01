@@ -1,3 +1,145 @@
-.color{
+ *{
+    margin: 0;
+    margin-right: 0px;
+    padding: 0;
+} 
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+/* nav bar */
+nav{
+    max-width: 1360px;
+    display: flex;
+   margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:px;
+    background-color:#FFFFFF;
+    margin-bottom: 0px;
+    padding-top: 5px;
+
+
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+
+}
+nav .menu a{
+    text-decoration: none;
+    font-size:16px ;
+    color: #000000;
+   width: 1650ug;
+}
+
+.btn{
     background-color: red;
+    color:#FFFFFF ;
+    background-color:#469165;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* banner section */
+
+.banner{
+    background: url("images/hero-bg.png");
+    height:675px;
+
+
+    background-repeat: no-repeat;
+
+    width:100%;
+    background-position: center;
+
+}
+.banner .structure{
+text-align: center;
+    padding-top: 116px;
+}
+.banner .structure h6{
+    /* color: #469165;;
+font-size: 16px;
+
+Layout
+Copy */
+/* Frame 2087326311 */
+/* width: 229px;
+height: 35px; */
+/* Auto layout */
+/* display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 6;
+padding: 8px 12px 8px 12px;
+margin-bottom:16px; */
+
+}
+.banner .structure span{
+    color:#469165;
+    background-color: white;
+    width: 229px;
+height: 35px;
+gap: 6px;
+font-size: 16px;
+padding: 8px 34px 12px;
+border-radius: 8px;
+margin-bottom: 15px;
+
+}
+.banner .structure h1{
+color: white;
+gap: 40px;
+font-style: bold;
+font-size: 72px;
+margin-top: 15px;
+
+
+}
+.banner .structure h2{
+    color: #30B868;
+gap: 40px;
+font-style: bold;
+font-size: 72px;
+margin-bottom: 16px;
+}
+.banner .structure h5{
+    color:#FFFFFF;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.banner .button{
+
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+
+
+}
+.banner .button .buld-button{
+    color: #30B868;
+    padding: 12px 16px 12px 16px;
+    width: 220px;
+height: 52px;
+font-size: 16px;
+border-radius: 4px;
+ 
+}
+.banner .button .work-button{
+ width: 198px;
+height: 52px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 1);
+border-radius: 4px;
+background: none;
+font-size: 16px;
+color: #FFFFFF;
 }
