@@ -38,6 +38,17 @@ nav .menu a{
    width: 1650ug;
 }
 
+nav .menu:hover {
+  background-color: white; 
+  color: rgb(220, 25, 25);           
+}
+nav .menu a{
+  transition: 1s; 
+}
+nav .menu a:hover {
+  color: rgb(163, 17, 17); 
+}
+
 .btn{
     background-color: red;
     color:#FFFFFF ;
