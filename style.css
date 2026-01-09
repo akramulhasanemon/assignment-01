@@ -47,8 +47,19 @@ nav .menu a{
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
-}
 
+transform: scale(1.1)
+}
+.btn:hover {
+  background-color: white; 
+  color: black;           
+}
+.btn{
+  transition: 1s; 
+}
+.btn:hover {
+  color: rgb(163, 17, 17); 
+}
 /* banner section */
 
 .banner{
@@ -137,6 +148,17 @@ cursor: pointer;
  color:#FFFFFF
  
 }
+.banner .button .buld-button:hover {
+  background-color: white; 
+  color: black;           
+}
+.banner .button .buld-button{
+  transition: 1s; 
+}
+.banner .button .buld-button:hover {
+  color: rgb(163, 17, 17); 
+}
+
 .banner .button .work-button{
  width: 198px;
 height: 52px;
@@ -148,6 +170,19 @@ font-size: 16px;
 color: #FFFFFF;
 cursor: pointer;
 }
+
+.banner .button .work-button:hover {
+  background-color: white; 
+  color: black;           
+}
+.banner .button .work-button{
+  transition: 1s; 
+}
+.banner .button .buld-button:hover {
+  color: rgb(163, 17, 17); 
+}
+
+
 .menu-bar{
     background-color:#F7F6F2;
  text-align: center;
@@ -353,6 +388,16 @@ height: 284px;
 
 
  }
+
+ .ready .read-container .buttn .bn:hover {
+  background-color: white; 
+  color: black;           
+}
+.ready .read-container .buttn .bn{
+  transition: 1s; 
+}
+
+
  .read-container .free span{
     font-size: 16px;
     color:#627382;
